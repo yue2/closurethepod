@@ -3,7 +3,21 @@ layout: post
 author: 学学
 date: 2020-11-21
 categories: construction
+bgcolor: black
 ---
+#### v1.2 update
+##### 已实现功能
+- 修改域名
+- 首页navigation
+- 放弃使用livere，因为liveRe也不再支持墙内社交网络
+
+##### 待办
+1. 添加logo到网页favicon
+2. 添加logo到header
+3. 获得有效的rss链接
+4. 修改移动端显示问题
+
+#### v1.0
 ##### 已实现功能
 - 文章页面可评论（disqus）
 - 首页展示文章
