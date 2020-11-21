@@ -32,5 +32,8 @@ pagination_type: default  # values [ ops, default ]
 disqus: true
 disqus_shortname: 'gdgmanagua'
 
+# livere reply module
+livere: true
+
 # Build settings
 markdown: kramdown
