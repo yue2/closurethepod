@@ -15,7 +15,11 @@ bgcolor: black
 1. 添加logo到网页favicon
 2. 添加logo到header
 3. 获得有效的rss链接
-4. 修改移动端显示问题
+
+##### bugs
+1. 移动端显示问题
+2. card分享键链接不可用
+3. 宅屏幕footer菜单无法下拉
 
 #### v1.0
 ##### 已实现功能
