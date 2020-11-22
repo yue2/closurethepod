@@ -1,6 +1,6 @@
 ---
 layout: default
-disqus: true
+livere: true
 ---
 <div class="post-ribbon mdl-color--red-700"></div>
 <main class="post-main mdl-layout__content">
@@ -17,11 +17,12 @@ disqus: true
       <article class="post-content">
         <p>{{ content }}</p>
       </article>
-      <!-- Disqus comments -->
-      {% if site.disqus %}
+
+      <!-- livere comments -->
+      {% if site.livere %}
       <div>
         <h3>评论</h3>
-        {% include disqus.html %}
+          {% include livere.html %}
       </div>
       {% endif %}
     </div>
