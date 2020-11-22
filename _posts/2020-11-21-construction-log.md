@@ -5,6 +5,8 @@ date: 2020-11-21
 categories: construction
 bgcolor: black
 ---
+#### v1.2.1 2020-11-22
+- 选择部署livere作为评论模块，因为不需要额外注册livere帐号，但是在post页面似乎不能加载出来
 #### v1.2 update
 ##### 已实现功能
 - 修改域名
@@ -19,7 +21,7 @@ bgcolor: black
 ##### bugs
 1. 移动端显示问题
 2. card分享键链接不可用
-3. 宅屏幕footer菜单无法下拉
+3. 窄屏幕footer菜单无法下拉
 
 #### v1.0
 ##### 已实现功能

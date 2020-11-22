@@ -2,7 +2,7 @@
 layout: page
 title: "关于"
 permalink: /about/
-disqus: false
+livere: false
 ---
 
 这是真实犯罪类播客节目《午时已到》的网页，主播是学学和扁扁，和大家分享我们道听途说来的有意思的犯罪故事。

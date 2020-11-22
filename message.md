@@ -3,7 +3,7 @@ layout: page
 title: 留言板
 categories: 互动
 permalink: /message/
-disqus: true
+livere: true
 ---
 
 
