@@ -10,6 +10,9 @@ bgcolor: black
 - added logo as favicon and title
 - used xml file from extracting tools
 
+bug:
+- favicon only showing in homepage
+
 #### v1.2.1 2020-11-22
 - 选择部署livere作为评论模块，因为不需要额外注册livere帐号，但是在post页面似乎不能加载出来
 - 中文字体太丑
