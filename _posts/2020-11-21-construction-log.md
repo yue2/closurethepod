@@ -6,6 +6,10 @@ categories: construction
 bgcolor: black
 ---
 
+#### v1.2.2 2020-11-23
+- added logo as favicon and title
+- used xml file from extracting tools
+
 #### v1.2.1 2020-11-22
 - 选择部署livere作为评论模块，因为不需要额外注册livere帐号，但是在post页面似乎不能加载出来
 - 中文字体太丑

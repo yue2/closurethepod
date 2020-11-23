@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+	<title>午时已到 | Closure</title>
+	<description>Feed created by FiveFilters.org</description>
+	<link>https://podcast.midofnowhere.link/</link>
+	<generator>Feed Creator</generator>
+	<atom:link rel="self" href="http://createfeed.fivefilters.org/extract.php?url=https%3A%2F%2Fpodcast.midofnowhere.link%2F&amp;item=div&amp;item_title=h2&amp;item_url=a&amp;item_desc=p&amp;item_date=span&amp;max=5&amp;order=document" />
+	<atom:link rel="related" title="Edit feed with Feed Creator" href="http://createfeed.fivefilters.org/index.php?url=https%3A%2F%2Fpodcast.midofnowhere.link%2F&amp;item=div&amp;item_title=h2&amp;item_url=a&amp;item_desc=p&amp;item_date=span&amp;max=5&amp;order=document"/>
+	<item>
+		<title>Construction Log</title>
+		<link>http://podcast.midofnowhere.link/</link>
+		<description></description>
+	</item>
+	<item>
+		<title>并不高贵诺贝尔奖</title>
+		<link>https://podcast.midofnowhere.link/editor/%E6%89%81/2020/10/06/ignobel-prize.html</link>
+		<description></description>
+		<pubDate>Tue, 06 Oct 2020 00:00:00 +0200</pubDate>
+	</item>
+	<item>
+		<title>大家都叫迪那摩</title>
+		<link>https://podcast.midofnowhere.link/editor/%E6%89%81/2020/09/14/dynamo-club.html</link>
+		<description></description>
+		<pubDate>Mon, 14 Sep 2020 00:00:00 +0200</pubDate>
+	</item>
+	<item>
+		<title>Jekyll Material Design Lite</title>
+		<link>https://podcast.midofnowhere.link/construction/2015/08/11/jekyll-mdl.html</link>
+		<description></description>
+		<pubDate>Tue, 11 Aug 2015 00:00:00 +0200</pubDate>
+	</item>
+	<item>
+		<title>Welcome to Jekyll!</title>
+		<link>https://podcast.midofnowhere.link/jekyll/2015/07/11/welcome-to-jekyll.html</link>
+		<description></description>
+		<pubDate>Sat, 11 Jul 2015 00:00:00 +0200</pubDate>
+	</item>
+</channel>
+</rss>
