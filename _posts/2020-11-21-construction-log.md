@@ -4,7 +4,17 @@ author: 学学
 date: 2020-11-21
 categories: construction
 bgcolor: black
+livere: True
 ---
+
+#### v1.2.3 2020-11-27
+- fixed stylesheet. 窄屏幕已经可以正常显示
+- 首页置顶留言板功能
+- 放弃更换中文字体，因为google fonts里其他的更丑
+
+bug: livere只能在根目录页面中显示
+
+todo: enable pagination. Showing 6 blogs each page
 
 #### v1.2.2 2020-11-23
 - added logo as favicon and title

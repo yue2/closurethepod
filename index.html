@@ -3,63 +3,37 @@ layout: default
 ---
 <div class="page-content">
   <div class="mdl-grid">
-  {% if site.post_type == 'highlight' %}
 
-    {% for post in site.posts %}
-    {% if post.highlight %}
+<!-- pin the message board -->
+<div class="mdl-cell mdl-cell--12-col mdl-card mdl-shadow--2dp welcome-card">
+        <div class="mdl-card__title">
 
-    <div class="section-highlight section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-      <div class="mdl-card mdl-cell mdl-cell--12-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
-        <div class="mdl-card__title" {% if post.image %} style="background: url('{{ post.image }}') center/cover;" {% endif %}>
         </div>
         <div class="mdl-card__supporting-text">
-          <h4>{{ post.title }}</h4>
-          <p>{{ post.excerpt }}</p>
+  <a class="mdl-color-text--black" href="/message/">
+          <h3 class="mdl-color-text--blakck">留言板</h3></a>
+          <br>
+          <p>  &nbsp &nbsp 有什么想对我们说？</p>
         </div>
-        <div class="mdl-card__actions">
-          <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="{{ post.url | prepend: site.baseurl }}">Read More</a>
+        <div class="mdl-card__actions mdl-card--border">
+          <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--raised" href="/message/">
+            Leave a Message
+          </a>
         </div>
-      </div>
-
-
     </div>
 
-    {% else %}
-
-    <div class="mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-desktop mdl-cell--4-col-tablet mdl-cell--12-col-phone">
-      <div class="mdl-card__title" {% if post.image %} style="background: url('{{ post.image }}') center/cover;" {% endif %}>
-       <h2 class="mdl-card__title-text">
-          <a class="mdl-card__title-text" href="{{ post.url | prepend: site.baseurl }}">
-            {{ post.title }}</a></h2>
-      </div>
-      <div class="mdl-card__supporting-text">
-        <span>{{ post.date | date: "%b %-d, %Y" }}</span>
-        <p>{{ post.excerpt }}</p>
-      </div>
-      <div class="mdl-card__actions mdl-card--border">
-        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="{{ post.url | prepend: site.baseurl }}">Read More</a>
-      </div>
-      <div class="mdl-card__menu">
-
-      </div>
-    </div>
-    {% endif %}
-    {% endfor %}
-
-  {% else %}
-
+<!-- arrange posts as cards -->
     {% for post in site.posts %}
-
     <div class="mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-desktop mdl-cell--4-col-tablet  mdl-cell--12-col-phone">
       <div class="mdl-card__title"
-
       {% if post.bgcolor %} style="background: {{post.bgcolor}} center/cover;"
       {% elsif post.image %} style="background: url('{{ post.image }}') center/cover;"
       {% endif %}>
-        <h2 class="mdl-card__title-text"><a class="mdl-card__title-text" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
-      </div>
+          </div>
       <div class="mdl-card__supporting-text">
         <span>{{ post.date | date: "%b %-d, %Y" }}</span>
+        <a class="mdl-color-text--black" href="{{ post.url | prepend: site.baseurl }}">
+          <h4 class="">{{ post.title }}</h4></a>
         <p>{{ post.excerpt }}</p>
       </div>
       <div class="mdl-card__actions mdl-card--border">
@@ -80,7 +54,5 @@ layout: default
     </div>
 
     {% endfor %}
-
-  {% endif %}
   </div>
 </div>
