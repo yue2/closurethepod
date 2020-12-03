@@ -7,6 +7,9 @@ bgcolor: black
 livere: True
 ---
 
+#### v1.2.4 2020-11-29
+- fixed rss feed
+
 #### v1.2.3 2020-11-27
 - fixed stylesheet. 窄屏幕已经可以正常显示
 - 首页置顶留言板功能

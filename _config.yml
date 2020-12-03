@@ -37,3 +37,13 @@ livere: true
 
 # Build settings
 markdown: kramdown
+
+# plugins
+# plugins:
+#  - jekyll-paginate
+
+# gem group: :jekyll_plugins
+
+
+# pagination
+# pagination: 4

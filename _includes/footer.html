@@ -5,7 +5,7 @@
        <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
        <h1 class="mdl-mega-footer--heading">网页信息</h1>
       <ul class="mdl-mega-footer--link-list">
-        <li><a href="{{ /extract.xml | prepend: site.baseurl }}">通过 RSS 订阅消息</a></li>
+        <li><a target="_blank" href="{{ '/feed.xml' | prepend: site.baseurl }}">通过 RSS 订阅消息</a></li>
         {% if site.github_username %}
         <li>
           <a href="https://github.com/yue2/closurethepod">
