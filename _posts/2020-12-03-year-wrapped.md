@@ -1,7 +1,7 @@
 ---
 layout: post
 author: 学
-categories:
+categories: news
 title: "年终数据"
 date: 2020-12-03
 image: /assets/img/download.png
