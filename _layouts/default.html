@@ -4,15 +4,17 @@
   {% include head.html %}
 
   <body>
-
-    <!-- Start Layout -->
+    <div id="fb-root"></div>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v9.0" nonce="lGzYBHSb"></script>
+      <!-- Start Layout -->
     {% if site.header_type == 'drawer' %}
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header mdl-layout--fixed-drawer">
       {% include search_result.html %}
       {% include header_fixed.html %}
     {% else %}
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-      
+
       {% include header.html %}
     {% endif %}
 

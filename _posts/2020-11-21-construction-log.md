@@ -7,6 +7,10 @@ bgcolor: black
 livere: True
 ---
 
+#### v1.2.5 2020-12-04
+- added sharing buttons to post page
+- deleted posts from forked repo
+
 #### v1.2.4 2020-11-29
 - fixed rss feed
 
@@ -38,13 +42,13 @@ bug:
 
 ##### 待办
 1. 添加logo到网页favicon
-2. 添加logo到header
-3. 获得有效的rss链接
+2. ~~添加logo到header~~
+3. ~~获得有效的rss链接~~
 
 ##### bugs
-1. 移动端显示问题
-2. card分享键链接不可用
-3. 窄屏幕footer菜单无法下拉
+1. ~~移动端显示问题~~
+2. ~~card分享键链接不可用~~
+3. ~~窄屏幕footer菜单无法下拉~~
 
 #### v1.0
 ##### 已实现功能
@@ -55,6 +59,6 @@ bug:
 
 ##### 需要修改的功能
 - 把评论模块替换成linvere以支持更多社交网络帐号
-- 修改Layout
-- 修改域名
-- navigate to homepage
+- ~~修改Layout~~
+- ~~修改域名~~
+- ~~navigate to homepage~~
