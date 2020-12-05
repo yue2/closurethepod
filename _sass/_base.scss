@@ -78,3 +78,12 @@ pre {
         }
     }
 }
+
+header.mdl-layout__header, .mdl-layout__obfuscator.is-
+visible {
+  position: fixed;
+}
+
+.content_top{
+  padding-top: 24px;
+}

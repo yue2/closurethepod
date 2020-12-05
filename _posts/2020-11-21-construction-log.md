@@ -7,6 +7,11 @@ bgcolor: black
 livere: True
 ---
 
+#### v1.3.0 2020-12-5
+- set header as fixed on top
+- added 收听网址 to header
+- fixed 豆瓣 sharing link
+
 #### v1.2.5 2020-12-04
 - added sharing buttons to post page
 - deleted posts from forked repo

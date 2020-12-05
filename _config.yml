@@ -13,9 +13,9 @@ apple_podcast: 午时已到   # Community link
 radio_public: 午时已到   #Personal link
 
 # Layout settings
-header_type: default  # values [ drawer, default ]
+header_type: fixed  # values [ drawer, default ]
 post_type: default    # values [ highlight, default ]
-pagination_type: default  # values [ ops, default ]
+pagination_type: ops  # values [ ops, default ]
 
 # don't need vertical options
 #more_vert:
